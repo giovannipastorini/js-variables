@@ -10,20 +10,17 @@ console.log(nameOne); /* non usare la variablie 'name' perchè è una variabile 
 // un numero, una stringa e un valore booleano.
 // Stampa tutti i valori nella console.
 
-let number=5;
+const number=55;
 /* console.log(number); */
-let text=`ciao`;
+const text=`Ciao`;
 /* console.log(text); */
-let bool=true;
+const bool=true;
 
-console.log(
-    `
-     ${number.toString()}
-     ${text}
-     ${bool.toString()}
+console.log(`${number.toString()}, ${text}, ${bool.toString()}`);
 
-    `
-);
+/* let numberPlustextPlusbool= number.toString()+", "+text+", "+bool.toString();
+console.log( numberPlustextPlusbool); */
+
 
 
 // 3. Sostituisci null nelle righe sottostanti utilizzando operazioni con le stringhe
@@ -33,10 +30,11 @@ const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; // NON MODIFICARE QUESTA RIGA
 const firstName = 'Jane'; // NON MODIFICARE QUESTA RIGA
 const lastName = 'Smith'; // NON MODIFICARE QUESTA RIGA
 
-const fullName = null;
+const fullName = firstName+" "+lastName;
 console.log(fullName); // Output: "Jane Smith"
 
 // 4. Imposta questa variabile utilizzando una proprietà
 // sulla variabile alphabet per ottenere la sua lunghezza
-const numberOfLettersInAlphabet = null;
+
+const numberOfLettersInAlphabet = alphabet.length;
 console.log(numberOfLettersInAlphabet); // Output: 26
