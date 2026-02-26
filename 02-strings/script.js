@@ -2,6 +2,9 @@
 // Crea una variabile chiamata name e assegnale il tuo nome.
 // Stampa il valore di nome nella console.
 
+let nameOne= `Giovanni`; /* backtick= Alt+96 */
+console.log(nameOne); /* non usare la variablie 'name' perchè è una variabile di globale di sistema */
+
 // 2. Tipi primitivi
 // Crea tre variabili chiamate number, text e bool e assegna rispettivamente
 // un numero, una stringa e un valore booleano.
